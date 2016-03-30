@@ -48,7 +48,7 @@
     <div class="navbar-wrapper">
       <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -65,9 +65,10 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">F*%K <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Google</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#them">Them</a></li>
+                    <li><a href="#U">U</a></li>
+                    <li><a href="#why">Why?</a></li>
+                    <li><a href="#twitter?">Twitter?</a></li>
                     <li role="separator" class="divider"></li>
                     <li class="dropdown-header">Nav header</li>
                     <li><a href="https://www.facebook.com/">Or don't..</a></li>
@@ -94,7 +95,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <img class="first-slide" src="BG_01.png" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Mass Surveillance.</h1>
@@ -104,7 +105,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img class="second-slide" src="BG_02.png" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Contemporary Data Use</h1>
@@ -114,7 +115,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="BG_03.png" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Realities of a Monitored life</h1>
@@ -139,8 +140,10 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
+<div id="them"></div>
+<hr class="featurette-divider">
     <div class="container marketing">
-
+    
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
@@ -167,7 +170,7 @@
       <!-- START THE FEATURETTES -->
 
 <hr class="featurette-divider">
-
+<div id="U"></div>
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">Introducing F*%K U.<br><span class="text-muted">Destroy yourself. Virtually.</span></h2>
@@ -180,7 +183,7 @@
       </div>
 
       <hr class="featurette-divider" >
-
+<div id="why"></div>
       <div class="row featurette"style = "background-color: #f5f5f5">
         <div class="col-md-7">
           <h2 class="featurette-heading">Scope<br><span class="text-muted">Why?</span></h2>
@@ -206,10 +209,13 @@
 
       <hr class="featurette-divider" >
 
+
+<div id="twitter?"></div>
+
       <div class="row featurette" >
         <div class="col-md">
           <h2 class="featurette-heading">Tools.<br><span class="text-muted">The victim itself.</span></h2>
-          <p class="lead">As an intial proof of concept, at the bottom of the page you can enter in the text box a tweet, and send it to my Twitter on my behalf. This is done through using the Twitter REST api, and the OAuth system. The REST api handles all the actions you may want to do to the twitter page, such as POST (with which you can post tweets, retweets, videos etc) and GET (where you can get tweets that you've sent, or mention you or someone else, etc). The OAuth system handles the security handshake of which I am entirely subverting by allowing anyone to send a tweet or access on my behalf.<br><br><center><h2>Give it a go.<br>F*%K your Twitter up</h2><br>
+          <p class="lead">Google, Facebook and Twitter all have very powerful APIs which you can utilise for all sorts of tracking/posting/searching functions. This is how data is collected on you, so it's fitting that it's what you use to mess with it. As an example, Twitter uses something called OAuth which is used to authorise apps to use the REST API and access GET and POST on your Twitter account. This could be used to update your <a href="https://dev.twitter.com/rest/reference/post/account/update_profile_background_image">profile background image</a> among other things. This would enable an automated process which updates your account beyond recognition.<br><br>Below is a proof of concept for 'F*%K U'. Pressing the Tweet button will generate a random Tweet which may or may not represent you.<br><br>Allowing it to be sent is the first example of what could <strong>F*%K U</strong><br><br><center><h2>Give it a go.<br>F*%K your Twitter up</h2><br>
 
           <!--<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=hello+world" data-size="large" data-hashtags="F*%K,NSA"></a></center></p>-->
 
@@ -252,6 +258,7 @@ window.onload = test();
         <a class="twitter-follow-button"
         href="https://twitter.com/_F__K_U_"
        data-size="large"> Follow @+F__K_U_</a>
+
       </footer>
 
     </div><!-- /.container -->
